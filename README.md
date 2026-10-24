@@ -1,3 +1,5 @@
+<!-- Native video attachment pending upload. -->
+
 [![MOP launch film — preview](docs/demos/launch-film-preview.gif)](https://github.com/mode-io/mop/releases/download/v0.9.4/MOP-launch-film-EN.mp4)
 
 <p align="center">
