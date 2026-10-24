@@ -10,8 +10,10 @@ The four terminal recordings above contain actual terminal frames sampled at fou
 
 ## Launch film
 
-[Full English launch film (2:30)](https://github.com/mode-io/mop/releases/download/v0.9.4/MOP-launch-film-EN.mp4)
+The README uses GitHub's native video player for the complete English launch film (2:30), with playback, seeking, and audio controls. The 720p H.264/AAC edition fits the repository's video attachment limit.
 
-The film introduces the MOP product vision: familiar terminal views, AI security decisions, specialized guard models, and vLLM-Jev. The original video and audio are preserved in the release asset.
+https://github.com/user-attachments/assets/1375e751-ebdf-40ff-bdaa-c1cdbcc4b606
 
-`launch-film-preview.gif` is a seven-second excerpt montage for the top of the README. It is separate from the live terminal recordings above.
+[Original 1080p film](https://github.com/mode-io/mop/releases/download/v0.9.4/MOP-launch-film-EN.mp4)
+
+The film introduces the MOP product vision: familiar terminal views, AI security decisions, specialized guard models, and vLLM-Jev. It is separate from the live terminal recordings above.
