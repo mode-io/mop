@@ -1,9 +1,6 @@
-[![MOP launch film — preview](docs/demos/launch-film-preview.gif)](https://github.com/mode-io/mop/releases/download/v0.9.4/MOP-launch-film-EN.mp4)
+https://github.com/user-attachments/assets/1375e751-ebdf-40ff-bdaa-c1cdbcc4b606
 
-<p align="center">
-  <a href="https://github.com/mode-io/mop/releases/download/v0.9.4/MOP-launch-film-EN.mp4"><strong>▶ Full launch film · English · 2:30</strong></a><br>
-  <sub>A look at the MOP product vision.</sub>
-</p>
+<p align="center">English · 2:30 · MOP product vision</p>
 
 **MOP — top, for the age of AI agents.**
 
