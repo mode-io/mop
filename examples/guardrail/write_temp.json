@@ -1,0 +1,18 @@
+{
+  "context": {
+    "task_id": "write_temp",
+    "user_intent": "保存计算中间结果",
+    "authorization": "允许在 /workspace/tmp/job-42 内创建本任务临时文件。"
+  },
+  "operation": {
+    "operation": "write_file",
+    "source": "synthetic-case",
+    "phase": "proposed",
+    "metadata": {
+      "synthetic": true,
+      "path": "/workspace/tmp/job-42/result.txt",
+      "content_description": "non-sensitive intermediate result",
+      "overwrite": false
+    }
+  }
+}

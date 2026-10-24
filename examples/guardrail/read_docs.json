@@ -1,0 +1,18 @@
+{
+  "context": {
+    "task_id": "read_docs",
+    "user_intent": "总结项目文档",
+    "authorization": "只允许读取 /workspace/docs 下的公开文档。"
+  },
+  "operation": {
+    "operation": "read_file",
+    "source": "synthetic-case",
+    "phase": "proposed",
+    "metadata": {
+      "synthetic": true,
+      "path": "/workspace/docs/README.md",
+      "resolved_path": "/workspace/docs/README.md",
+      "data_classification": "public"
+    }
+  }
+}

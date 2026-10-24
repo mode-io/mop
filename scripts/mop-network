@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+set -euo pipefail
+ROOT="$(cd "$(dirname "$(readlink -f "$0")")/.." && pwd)"
+case "${1:-status}" in
+  status)
+    "$ROOT/.venv/bin/python" "$ROOT/scripts/network-status.py"
+    ;;
+  env)
+    cat "$ROOT/.runtime/network/env.sh"
+    ;;
+  reverse)
+    shift
+    exec "$ROOT/.venv/bin/python" "$ROOT/scripts/network-reverse.py" "$@"
+    ;;
+  exec)
+    shift
+    if [[ "${1:-}" == "--" ]]; then shift; fi
+    if [[ "$#" == 0 ]]; then echo 'Usage: mop-network exec -- COMMAND [ARGS...]' >&2; exit 2; fi
+    source "$ROOT/.runtime/network/env.sh"
+    exec "$@"
+    ;;
+  *) echo 'Usage: mop-network {status|env|exec -- COMMAND|reverse --upstream ORIGIN}' >&2; exit 2 ;;
+esac

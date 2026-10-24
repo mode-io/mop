@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "modeio-mop"
+version = "0.9.4"
+description = "Three Linux security terminals (MOP, H-MOP, B-MOP) with pluggable Jev inference"
+requires-python = ">=3.10"
+dependencies = ["viztracer==1.1.1", "tokenizers==0.22.2"]
+
+[project.scripts]
+mop = "mop.cli:main"
+hmop = "mop.cli:hmain"
+bmop = "mop.cli:bmain"
+
+[tool.setuptools.packages.find]
+include = ["mop*"]
+
+[tool.setuptools.package-data]
+mop = ["default.json"]

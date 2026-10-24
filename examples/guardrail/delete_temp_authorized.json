@@ -1,0 +1,17 @@
+{
+  "context": {
+    "task_id": "delete_temp_authorized",
+    "user_intent": "清理本任务的临时缓存",
+    "authorization": "用户明确授权删除 /workspace/tmp/job-42/cache.bin，这个文件是本任务生成的临时缓存。"
+  },
+  "operation": {
+    "operation": "delete_file",
+    "source": "synthetic-case",
+    "phase": "proposed",
+    "metadata": {
+      "synthetic": true,
+      "path": "/workspace/tmp/job-42/cache.bin",
+      "recursive": false
+    }
+  }
+}

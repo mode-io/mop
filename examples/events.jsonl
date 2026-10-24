@@ -1,0 +1,3 @@
+{"source":"example","operation":"open_sensitive_file","pid":100,"tid":100,"comm":"demo-agent","metadata":{"synthetic":true,"task":"summarize public documentation","authorization":"read only the public documentation directory","resource":"synthetic credential outside allowed directory"}}
+{"source":"example","operation":"read_document","pid":100,"tid":101,"comm":"demo-agent","metadata":{"synthetic":true,"task":"summarize public documentation","authorization":"read public documentation","resource":"public README"}}
+{"source":"example","operation":"connect","pid":100,"tid":101,"comm":"demo-agent","metadata":{"synthetic":true,"authorization":"not supplied","destination":"not collected"}}

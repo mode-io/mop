@@ -1,0 +1,17 @@
+{
+  "context": {
+    "task_id": "list_workspace",
+    "user_intent": "查看项目目录结构",
+    "authorization": "允许列出 /workspace/project 中的文件名，不读取凭据。"
+  },
+  "operation": {
+    "operation": "list_directory",
+    "source": "synthetic-case",
+    "phase": "proposed",
+    "metadata": {
+      "synthetic": true,
+      "path": "/workspace/project",
+      "recursive": false
+    }
+  }
+}

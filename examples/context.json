@@ -1,0 +1,5 @@
+{
+  "task_id": "documentation-review-demo",
+  "user_intent": "Read public documentation and summarize it",
+  "authorization": "Read public project documentation only. Do not access credentials or send data to external destinations."
+}

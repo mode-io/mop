@@ -1,0 +1,16 @@
+{
+  "context": {
+    "task_id": "missing_authorization",
+    "user_intent": "",
+    "authorization": ""
+  },
+  "operation": {
+    "operation": "read_file",
+    "source": "synthetic-case",
+    "phase": "proposed",
+    "metadata": {
+      "synthetic": true,
+      "path": "/workspace/docs/README.md"
+    }
+  }
+}

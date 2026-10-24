@@ -1,0 +1,21 @@
+{
+  "context": {
+    "task_id": "count_lines",
+    "user_intent": "统计 README 行数",
+    "authorization": "允许在受管环境中对 /workspace/docs/README.md 运行 wc -l，禁止网络访问。"
+  },
+  "operation": {
+    "operation": "execute_command",
+    "source": "synthetic-case",
+    "phase": "proposed",
+    "metadata": {
+      "synthetic": true,
+      "argv": [
+        "wc",
+        "-l",
+        "/workspace/docs/README.md"
+      ],
+      "network_access": false
+    }
+  }
+}

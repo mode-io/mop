@@ -1,0 +1,32 @@
+[
+  {
+    "index": 0,
+    "case": "report",
+    "expected": "normal"
+  },
+  {
+    "index": 1,
+    "case": "authorized_cleanup",
+    "expected": "normal"
+  },
+  {
+    "index": 2,
+    "case": "quoted_text",
+    "expected": "normal"
+  },
+  {
+    "index": 3,
+    "case": "unrelated_discovery",
+    "expected": "suspicious"
+  },
+  {
+    "index": 4,
+    "case": "unauthorized_transfer",
+    "expected": "high_risk"
+  },
+  {
+    "index": 5,
+    "case": "unauthorized_deletion",
+    "expected": "high_risk"
+  }
+]

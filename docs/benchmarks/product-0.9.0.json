@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-23",
+  "shared_session_verified": true,
+  "frontend_count": 3,
+  "gate": {
+    "command": "git status --short",
+    "category": "normal",
+    "policy_rules": [
+      "secrets"
+    ],
+    "models": [
+      {
+        "name": "openjev-core",
+        "state": "active",
+        "category": "normal",
+        "latency_ms": 227.09106802358292
+      },
+      {
+        "name": "openjev-shadow",
+        "state": "shadow",
+        "category": "normal",
+        "latency_ms": 254.43237900617532
+      }
+    ]
+  },
+  "oversized_input_recheck": {
+    "original_state_chars": 16843,
+    "fragments": 6,
+    "category": "normal",
+    "seconds": 1.5660740819876082,
+    "exact_reconstruction": true
+  },
+  "external_model_api_calls": 0,
+  "tests": {
+    "total": 317,
+    "passed": 307,
+    "skipped": 10
+  },
+  "scope": "Live local OpenJev service; shadow verification uses the same checkpoint. No accuracy claim."
+}

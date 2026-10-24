@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="984" height="528" viewBox="0 0 984 528" role="img" aria-label="MOP htop renderer preview">
+<rect width="984" height="528" fill="#101820"/>
+<g font-family="DejaVu Sans Mono,monospace" font-size="13" xml:space="preserve">
+<text x="12" y="25" fill="#66d9ef" textLength="488" lengthAdjust="spacingAndGlyphs">H-MOP 0.8.0 | SECURITY OBSERVER | vllm-jev | CPU 0-7/8 (host)</text>
+<text x="12" y="43" fill="#dce5ed" textLength="40" lengthAdjust="spacingAndGlyphs">0   [</text>
+<text x="52" y="43" fill="#81c784" textLength="120" lengthAdjust="spacingAndGlyphs">|||||||||||||||</text>
+<text x="172" y="43" fill="#9aabbc" textLength="248" lengthAdjust="spacingAndGlyphs">...............................</text>
+<text x="420" y="43" fill="#dce5ed" textLength="112" lengthAdjust="spacingAndGlyphs">] 34.0%  1   [</text>
+<text x="532" y="43" fill="#81c784" textLength="224" lengthAdjust="spacingAndGlyphs">||||||||||||||||||||||||||||</text>
+<text x="756" y="43" fill="#9aabbc" textLength="144" lengthAdjust="spacingAndGlyphs">..................</text>
+<text x="900" y="43" fill="#dce5ed" textLength="72" lengthAdjust="spacingAndGlyphs">] 62.0%  </text>
+<text x="12" y="61" fill="#dce5ed" textLength="40" lengthAdjust="spacingAndGlyphs">2   [</text>
+<text x="52" y="61" fill="#81c784" textLength="96" lengthAdjust="spacingAndGlyphs">||||||||||||</text>
+<text x="148" y="61" fill="#9aabbc" textLength="272" lengthAdjust="spacingAndGlyphs">..................................</text>
+<text x="420" y="61" fill="#dce5ed" textLength="112" lengthAdjust="spacingAndGlyphs">] 28.0%  3   [</text>
+<text x="532" y="61" fill="#81c784" textLength="168" lengthAdjust="spacingAndGlyphs">|||||||||||||||||||||</text>
+<text x="700" y="61" fill="#9aabbc" textLength="200" lengthAdjust="spacingAndGlyphs">.........................</text>
+<text x="900" y="61" fill="#dce5ed" textLength="72" lengthAdjust="spacingAndGlyphs">] 47.0%  </text>
+<text x="12" y="79" fill="#dce5ed" textLength="40" lengthAdjust="spacingAndGlyphs">4   [</text>
+<text x="52" y="79" fill="#81c784" textLength="312" lengthAdjust="spacingAndGlyphs">|||||||||||||||||||||||||||||||||||||||</text>
+<text x="364" y="79" fill="#9aabbc" textLength="56" lengthAdjust="spacingAndGlyphs">.......</text>
+<text x="420" y="79" fill="#dce5ed" textLength="112" lengthAdjust="spacingAndGlyphs">] 85.0%  5   [</text>
+<text x="532" y="79" fill="#81c784" textLength="112" lengthAdjust="spacingAndGlyphs">||||||||||||||</text>
+<text x="644" y="79" fill="#9aabbc" textLength="256" lengthAdjust="spacingAndGlyphs">................................</text>
+<text x="900" y="79" fill="#dce5ed" textLength="72" lengthAdjust="spacingAndGlyphs">] 31.0%  </text>
+<text x="12" y="97" fill="#dce5ed" textLength="40" lengthAdjust="spacingAndGlyphs">6   [</text>
+<text x="52" y="97" fill="#81c784" textLength="80" lengthAdjust="spacingAndGlyphs">||||||||||</text>
+<text x="132" y="97" fill="#9aabbc" textLength="288" lengthAdjust="spacingAndGlyphs">....................................</text>
+<text x="420" y="97" fill="#dce5ed" textLength="112" lengthAdjust="spacingAndGlyphs">] 22.0%  7   [</text>
+<text x="532" y="97" fill="#81c784" textLength="96" lengthAdjust="spacingAndGlyphs">||||||||||||</text>
+<text x="628" y="97" fill="#9aabbc" textLength="272" lengthAdjust="spacingAndGlyphs">..................................</text>
+<text x="900" y="97" fill="#dce5ed" textLength="72" lengthAdjust="spacingAndGlyphs">] 27.0%  </text>
+<text x="12" y="115" fill="#dce5ed" textLength="40" lengthAdjust="spacingAndGlyphs">Mem [</text>
+<text x="52" y="115" fill="#80aaff" textLength="120" lengthAdjust="spacingAndGlyphs">|||||||||||||||</text>
+<text x="172" y="115" fill="#9aabbc" textLength="208" lengthAdjust="spacingAndGlyphs">..........................</text>
+<text x="380" y="115" fill="#dce5ed" textLength="152" lengthAdjust="spacingAndGlyphs">]12.0G/32.0G  Swp [</text>
+<text x="532" y="115" fill="#9aabbc" textLength="344" lengthAdjust="spacingAndGlyphs">...........................................</text>
+<text x="876" y="115" fill="#dce5ed" textLength="96" lengthAdjust="spacingAndGlyphs">]0.0B/4.0G  </text>
+<text x="12" y="133" fill="#dce5ed" textLength="960" lengthAdjust="spacingAndGlyphs">Tasks: 6 visible | Running: 2 | Load: 2.84 2.10 1.92 | Up: 1d 02:56                                                     </text>
+<text x="12" y="151" fill="#ff7070" textLength="680" lengthAdjust="spacingAndGlyphs">CLASSIFICATION | normal 1 suspicious 3 high_risk 1 | unknown 1 unassessed 4 waiting 8</text>
+<text x="12" y="169" fill="#9aabbc" textLength="656" lengthAdjust="spacingAndGlyphs">thread 250ms | p95 67.0ms | SYNTHETIC DEMO; not security evidence | SYNTHETIC DEMO</text>
+<rect x="12" y="174" width="952" height="18" fill="#81c784"/>
+<text x="12" y="187" fill="#101820" textLength="952" lengthAdjust="spacingAndGlyphs">    PID USER      PRI  NI    VIRT     RES S   CPU%  MEM%      TIME+ ADVICE       Command                               </text>
+<rect x="12" y="192" width="952" height="18" fill="#66d9ef"/>
+<text x="12" y="205" fill="#101820" textLength="952" lengthAdjust="spacingAndGlyphs">   2104 demo      20   0    1.5G    4.0G R   87.4  12.5    0:20.00 normal       vllm-jev                               </text>
+<text x="12" y="223" fill="#ffd166" textLength="760" lengthAdjust="spacingAndGlyphs">   2100 demo      20   0    1.0G  640.0M R   24.5   2.0    0:10.00 suspicious   workspace-agent</text>
+<text x="12" y="241" fill="#ffd166" textLength="744" lengthAdjust="spacingAndGlyphs">   2103 demo      20   0    1.4G  256.0M S   12.1   0.8    0:17.50 unknown      python-worker</text>
+<text x="12" y="259" fill="#ffd166" textLength="720" lengthAdjust="spacingAndGlyphs">   2101 demo      20   0    1.1G  128.0M S    3.2   0.4    0:12.50 suspicious   mcp-bridge</text>
+<text x="12" y="277" fill="#ffd166" textLength="744" lengthAdjust="spacingAndGlyphs">   2105 demo      20   0    1.6G   48.0M S    1.2   0.1    0:22.50 suspicious   mop-collector</text>
+<text x="12" y="295" fill="#ff7070" textLength="672" lengthAdjust="spacingAndGlyphs">   2102 demo      20   0    1.2G   12.0M S    0.3   0.1    0:15.00 high_risk    curl</text>
+<text x="12" y="493" fill="#66d9ef" textLength="776" lengthAdjust="spacingAndGlyphs">sample 1.00s | tags 0 | 1/6 | sort:cpu desc | filter:- | Tab view  H threads  g level  [ ] period</text>
+<rect x="12" y="498" width="16" height="18" fill="#244b75"/>
+<text x="12" y="511" fill="#f0f4f8" textLength="16" lengthAdjust="spacingAndGlyphs">F1</text>
+<text x="28" y="511" fill="#dce5ed" textLength="40" lengthAdjust="spacingAndGlyphs">Help </text>
+<rect x="68" y="498" width="16" height="18" fill="#244b75"/>
+<text x="68" y="511" fill="#f0f4f8" textLength="16" lengthAdjust="spacingAndGlyphs">F2</text>
+<text x="84" y="511" fill="#dce5ed" textLength="48" lengthAdjust="spacingAndGlyphs">Setup </text>
+<rect x="132" y="498" width="16" height="18" fill="#244b75"/>
+<text x="132" y="511" fill="#f0f4f8" textLength="16" lengthAdjust="spacingAndGlyphs">F3</text>
+<text x="148" y="511" fill="#dce5ed" textLength="56" lengthAdjust="spacingAndGlyphs">Search </text>
+<rect x="204" y="498" width="16" height="18" fill="#244b75"/>
+<text x="204" y="511" fill="#f0f4f8" textLength="16" lengthAdjust="spacingAndGlyphs">F4</text>
+<text x="220" y="511" fill="#dce5ed" textLength="56" lengthAdjust="spacingAndGlyphs">Filter </text>
+<rect x="276" y="498" width="16" height="18" fill="#244b75"/>
+<text x="276" y="511" fill="#f0f4f8" textLength="16" lengthAdjust="spacingAndGlyphs">F5</text>
+<text x="292" y="511" fill="#dce5ed" textLength="40" lengthAdjust="spacingAndGlyphs">Tree </text>
+<rect x="332" y="498" width="16" height="18" fill="#244b75"/>
+<text x="332" y="511" fill="#f0f4f8" textLength="16" lengthAdjust="spacingAndGlyphs">F6</text>
+<text x="348" y="511" fill="#dce5ed" textLength="40" lengthAdjust="spacingAndGlyphs">Sort </text>
+<rect x="388" y="498" width="16" height="18" fill="#244b75"/>
+<text x="388" y="511" fill="#f0f4f8" textLength="16" lengthAdjust="spacingAndGlyphs">F7</text>
+<text x="404" y="511" fill="#dce5ed" textLength="40" lengthAdjust="spacingAndGlyphs">Win- </text>
+<rect x="444" y="498" width="16" height="18" fill="#244b75"/>
+<text x="444" y="511" fill="#f0f4f8" textLength="16" lengthAdjust="spacingAndGlyphs">F8</text>
+<text x="460" y="511" fill="#dce5ed" textLength="40" lengthAdjust="spacingAndGlyphs">Win+ </text>
+<rect x="500" y="498" width="16" height="18" fill="#244b75"/>
+<text x="500" y="511" fill="#f0f4f8" textLength="16" lengthAdjust="spacingAndGlyphs">F9</text>
+<text x="516" y="511" fill="#dce5ed" textLength="64" lengthAdjust="spacingAndGlyphs">Details </text>
+<rect x="580" y="498" width="24" height="18" fill="#244b75"/>
+<text x="580" y="511" fill="#f0f4f8" textLength="24" lengthAdjust="spacingAndGlyphs">F10</text>
+<text x="604" y="511" fill="#dce5ed" textLength="368" lengthAdjust="spacingAndGlyphs">Quit                                          </text>
+</g>
+</svg>

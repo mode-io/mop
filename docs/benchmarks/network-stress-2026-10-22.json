@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-22",
+  "network": {
+    "stages": [
+      {
+        "concurrency": 1,
+        "requests": 32,
+        "client_errors": [],
+        "wall_seconds": 0.5577820870003052,
+        "requests_per_second": 57.370074704429314,
+        "request_p50_ms": 15.763902000799135,
+        "request_p95_ms": 21.33449400025711
+      },
+      {
+        "concurrency": 4,
+        "requests": 32,
+        "client_errors": [],
+        "wall_seconds": 0.21263753899984295,
+        "requests_per_second": 150.49083125451162,
+        "request_p50_ms": 23.03220500016323,
+        "request_p95_ms": 35.73951599992142
+      },
+      {
+        "concurrency": 16,
+        "requests": 32,
+        "client_errors": [],
+        "wall_seconds": 0.14804550699955144,
+        "requests_per_second": 216.14975454876154,
+        "request_p50_ms": 59.61075899995194,
+        "request_p95_ms": 65.6358630003524
+      }
+    ],
+    "requests": 96,
+    "expected_guard_records": 192,
+    "guard_records": 192,
+    "missing_records": 0,
+    "body_mismatches": 0,
+    "unknown": 0,
+    "guard_latency": {
+      "inference_ms": {
+        "p50": 229.51787800047896,
+        "p95": 322.10909300010826,
+        "max": 364.5473930000662
+      },
+      "queue_ms": {
+        "p50": 2014.8405079999065,
+        "p95": 4373.7809539998125,
+        "max": 4664.4198869998945
+      },
+      "end_to_end_ms": {
+        "p50": 2230.6349039999986,
+        "p95": 4588.6051380002755,
+        "max": 4935.7364360002975
+      }
+    },
+    "peak_service_memory_bytes": {
+      "mop-tetragon": 269058048,
+      "mop-content-1001": 514830336,
+      "mop-network-1001": 179499008
+    },
+    "external_api_calls": 0,
+    "notes": [
+      "Loopback HTTP proxy load; TLS and other protocols are verified separately.",
+      "Client latency includes connection setup; guard inference is asynchronous.",
+      "Bounded shared-host run, not a saturation or accuracy benchmark."
+    ],
+    "all_verified": true
+  },
+  "retention": {
+    "kind": "retention",
+    "history_limit": 512,
+    "prune_live": true,
+    "events": 20000,
+    "identities": 12000,
+    "payload_bytes": 4500,
+    "nested": true,
+    "completed": 20000,
+    "recent_count": 512,
+    "latest_count": 512,
+    "unique_retained_records": 512,
+    "rss_delta_mib": 10.80859375,
+    "rss_total_mib": 31.890625,
+    "peak_rss_mib": 32.1484375,
+    "serialized_record_mean_bytes": 5164.82421875,
+    "ui_rows": 512,
+    "visible_ms_median": 1.4188780005497392,
+    "wall_seconds": 6.56142283600002,
+    "fixture_throughput_rps": 3048.1193637251426
+  },
+  "synthetic_model_bursts": [
+    {
+      "offered": 8,
+      "capacity": 256,
+      "wall_seconds": 0.3809286469995641,
+      "completed_rps": 21.001308415665452,
+      "accepted": 8,
+      "completed": 8,
+      "dropped_queue_full": 0,
+      "unknown": 0,
+      "inference_p50_ms": 256.08419600030174,
+      "inference_p95_ms": 380.2065700001549,
+      "queue_p95_ms": 0.26821200026461156,
+      "end_to_end_p95_ms": 380.4624510003123
+    },
+    {
+      "offered": 32,
+      "capacity": 256,
+      "wall_seconds": 1.2882699070005401,
+      "completed_rps": 24.839515249180298,
+      "accepted": 32,
+      "completed": 32,
+      "dropped_queue_full": 0,
+      "unknown": 0,
+      "inference_p50_ms": 308.8196169992443,
+      "inference_p95_ms": 396.76447700003337,
+      "queue_p95_ms": 1017.388801999914,
+      "end_to_end_p95_ms": 1287.0120389998192
+    },
+    {
+      "offered": 128,
+      "capacity": 256,
+      "wall_seconds": 5.037819256999683,
+      "completed_rps": 25.407819032442127,
+      "accepted": 128,
+      "completed": 128,
+      "dropped_queue_full": 0,
+      "unknown": 0,
+      "inference_p50_ms": 311.29789799979335,
+      "inference_p95_ms": 317.47237799936556,
+      "queue_p95_ms": 4607.933586000399,
+      "end_to_end_p95_ms": 4918.713744999877
+    },
+    {
+      "offered": 512,
+      "capacity": 64,
+      "wall_seconds": 2.5563679100005174,
+      "completed_rps": 25.03552002418425,
+      "accepted": 64,
+      "completed": 64,
+      "dropped_queue_full": 448,
+      "unknown": 0,
+      "inference_p50_ms": 311.6928560002634,
+      "inference_p95_ms": 397.71695300078136,
+      "queue_p95_ms": 2283.3483350004826,
+      "end_to_end_p95_ms": 2554.28600400046
+    }
+  ],
+  "limits": [
+    "Network workload uses the installed compact policy; model burst fixture uses full inputs and is not a directly comparable production throughput result.",
+    "No classification accuracy estimate: this is a transport, capacity and resource test.",
+    "Service peaks are sampled every 500 ms and may miss shorter peaks.",
+    "Finite run on a shared host; no long-duration stability guarantee.",
+    "No external model API calls."
+  ]
+}

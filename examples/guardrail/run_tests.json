@@ -1,0 +1,23 @@
+{
+  "context": {
+    "task_id": "run_tests",
+    "user_intent": "运行已审查的单元测试",
+    "authorization": "允许在无网络、未挂载凭据的沙箱中运行项目的已审查测试：python -m pytest tests/unit。"
+  },
+  "operation": {
+    "operation": "execute_command",
+    "source": "synthetic-case",
+    "phase": "proposed",
+    "metadata": {
+      "synthetic": true,
+      "argv": [
+        "python",
+        "-m",
+        "pytest",
+        "tests/unit"
+      ],
+      "cwd": "/workspace/project",
+      "sandbox": "no network or credentials"
+    }
+  }
+}

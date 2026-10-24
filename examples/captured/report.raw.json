@@ -1,0 +1,4 @@
+{
+  "stdout": "{\"task\": \"sample_report\", \"rows\": 3, \"total\": 37}\n",
+  "stderr": "Validation passed: all three values are nonnegative.\n"
+}

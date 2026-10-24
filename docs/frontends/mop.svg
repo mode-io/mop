@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="984" height="456" viewBox="0 0 984 456" role="img" aria-label="MOP top renderer preview">
+<rect width="984" height="456" fill="#101820"/>
+<g font-family="DejaVu Sans Mono,monospace" font-size="13" xml:space="preserve">
+<text x="12" y="25" fill="#66d9ef" textLength="552" lengthAdjust="spacingAndGlyphs">MOP 0.8.0 - 18:29:17 up 1d 02:56 | SECURITY OBSERVER | SYNTHETIC DEMO</text>
+<text x="12" y="43" fill="#dce5ed" textLength="960" lengthAdjust="spacingAndGlyphs">Tasks: 6 visible, 2 running | Load: 2.84 2.10 1.92                                                                      </text>
+<text x="12" y="61" fill="#dce5ed" textLength="960" lengthAdjust="spacingAndGlyphs">%Cpu(s): 42.0% busy  58.0% idle | host-wide meters / scoped process list                                                </text>
+<text x="12" y="79" fill="#dce5ed" textLength="960" lengthAdjust="spacingAndGlyphs">Mem: 12.0G / 32.0G | Swap: 0.0B / 4.0G                                                                                  </text>
+<text x="12" y="97" fill="#ff7070" textLength="680" lengthAdjust="spacingAndGlyphs">CLASSIFICATION | normal 1 suspicious 3 high_risk 1 | unknown 1 unassessed 4 waiting 8</text>
+<text x="12" y="115" fill="#ffd166" textLength="552" lengthAdjust="spacingAndGlyphs">POLICY thread / 250ms | inference p95 67.0ms | queue 0 | log errors 0</text>
+<text x="12" y="133" fill="#9aabbc" textLength="848" lengthAdjust="spacingAndGlyphs">COVERAGE: SYNTHETIC DEMO; not security evidence | advice is not enforcement; &#x27;-&#x27; means no matched evidence</text>
+<rect x="12" y="138" width="952" height="18" fill="#dce5ed"/>
+<text x="12" y="151" fill="#101820" textLength="952" lengthAdjust="spacingAndGlyphs">    PID USER      PRI  NI    VIRT     RES S   CPU%  MEM%      TIME+ ADVICE       Command                               </text>
+<rect x="12" y="156" width="952" height="18" fill="#66d9ef"/>
+<text x="12" y="169" fill="#101820" textLength="952" lengthAdjust="spacingAndGlyphs">   2104 demo      20   0    1.5G    4.0G R   87.4  12.5    0:20.00 normal       vllm-jev                               </text>
+<text x="12" y="187" fill="#ffd166" textLength="760" lengthAdjust="spacingAndGlyphs">   2100 demo      20   0    1.0G  640.0M R   24.5   2.0    0:10.00 suspicious   workspace-agent</text>
+<text x="12" y="205" fill="#ffd166" textLength="744" lengthAdjust="spacingAndGlyphs">   2103 demo      20   0    1.4G  256.0M S   12.1   0.8    0:17.50 unknown      python-worker</text>
+<text x="12" y="223" fill="#ffd166" textLength="720" lengthAdjust="spacingAndGlyphs">   2101 demo      20   0    1.1G  128.0M S    3.2   0.4    0:12.50 suspicious   mcp-bridge</text>
+<text x="12" y="241" fill="#ffd166" textLength="744" lengthAdjust="spacingAndGlyphs">   2105 demo      20   0    1.6G   48.0M S    1.2   0.1    0:22.50 suspicious   mop-collector</text>
+<text x="12" y="259" fill="#ff7070" textLength="672" lengthAdjust="spacingAndGlyphs">   2102 demo      20   0    1.2G   12.0M S    0.3   0.1    0:15.00 high_risk    curl</text>
+<text x="12" y="421" fill="#66d9ef" textLength="648" lengthAdjust="spacingAndGlyphs">sample 1.00s | tags 0 | 1/6 sort:cpu filter:- | Tab events | g level | [ ] window</text>
+<text x="12" y="439" fill="#9aabbc" textLength="584" lengthAdjust="spacingAndGlyphs">q quit  ? help  P/M/T sort  H threads  / search  F4 filter  Enter details</text>
+</g>
+</svg>

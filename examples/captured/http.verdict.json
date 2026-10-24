@@ -1,0 +1,16 @@
+{
+  "category": "normal",
+  "reason": "Classification of supplied evidence; not calibrated safety",
+  "provider": "vllm-jev",
+  "confidence": 0.9588512045722329,
+  "timing": {
+    "rpc_ms": 88.965879753232,
+    "batch_size": 1,
+    "batch_wait_ms": 0.0543203204870224
+  },
+  "probabilities": {
+    "normal": 0.9588512045722329,
+    "suspicious": 0.033855239494991266,
+    "high_risk": 0.007293555932775841
+  }
+}

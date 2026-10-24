@@ -1,0 +1,23 @@
+#!/usr/bin/env bash
+set -euo pipefail
+[ "$(uname -s)" = Linux ] && command -v apt-get >/dev/null || { echo 'This installer requires Debian or Ubuntu with APT.' >&2; exit 1; }
+[ "$(id -u)" -eq 0 ] || { echo 'Run this installer with sudo bash.' >&2; exit 1; }
+command -v curl >/dev/null || { echo 'Install curl and ca-certificates first.' >&2; exit 1; }
+work="$(mktemp -d)"
+trap 'rm -rf -- "$work"' EXIT
+base=https://github.com/mode-io/mop/releases/download/apt
+curl --fail --silent --show-error --location --connect-timeout 10 --max-time 120 \
+    "$base/modeio-mop.gpg" -o "$work/modeio-mop.gpg"
+printf '%s  %s\n' '@KEY_SHA256@' "$work/modeio-mop.gpg" | sha256sum --check
+mkdir -p /usr/share/keyrings /etc/apt/sources.list.d
+install -m 0644 "$work/modeio-mop.gpg" /usr/share/keyrings/modeio-mop.gpg
+cat > "$work/modeio-mop.sources" <<EOF
+Types: deb
+URIs: $base/
+Suites: ./
+Signed-By: /usr/share/keyrings/modeio-mop.gpg
+EOF
+install -m 0644 "$work/modeio-mop.sources" /etc/apt/sources.list.d/modeio-mop.sources
+apt-get update
+apt-get install -y mop
+printf '\nInstalled. Run mop, hmop, or bmop. Future updates use apt upgrade.\n'

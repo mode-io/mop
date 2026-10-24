@@ -1,0 +1,6 @@
+{
+  "window_id": "operator-declared-terminal-A",
+  "task_id": "documentation-review",
+  "user_intent": "Inspect public documentation within this declared terminal task",
+  "authorization": "Read public project documentation only. No credential access or external data transfer."
+}

@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-24",
+  "corpus_sha256": "462dd4bd4e0472549ed3ac927b06f1511baa4f90efc4fe69f1776bce75cac532",
+  "before": {
+    "events": 24,
+    "concurrency": 8,
+    "seconds": 2.930508079007268,
+    "events_per_second": 8.189706137281895,
+    "p50_ms": 977.1335439872928,
+    "p95_ms": 1215.8591540064663,
+    "end_to_end_p95_ms": 2928.7452360149473,
+    "unknown": 0
+  },
+  "after": {
+    "events": 24,
+    "concurrency": 8,
+    "seconds": 1.6608406250015832,
+    "events_per_second": 14.45051357650715,
+    "p50_ms": 520.4046379949432,
+    "p95_ms": 777.4784149951302,
+    "end_to_end_p95_ms": 1659.1061360086314,
+    "unknown": 0
+  },
+  "ui": {
+    "snapshot": {
+      "p50_ms": 33.46823700121604,
+      "p95_ms": 41.326992999529466,
+      "bytes": 1031714
+    },
+    "models": {
+      "p50_ms": 1.3079030031803995,
+      "p95_ms": 1.669829012826085,
+      "bytes": 3935
+    }
+  },
+  "same_categories": true,
+  "fragments_before": 48,
+  "fragments_after": 40,
+  "native_rpc_concurrency": 2,
+  "native_batch_size": 8,
+  "input_budget": 3072,
+  "method": "Same 24 recorded events (16 small, 8 large), warm local OpenJev, 8 concurrent clients. Observer paused during paired tests; serving and collectors stayed running.",
+  "external_model_api_calls": 0,
+  "navigation": {
+    "samples": 20,
+    "p50_ms": 28.840499988291413,
+    "p95_ms": 35.43660099967383,
+    "max_ms": 107.18506498960778,
+    "scope": "Local tmux key injection to rendered selection; SSH network and physical keyboard excluded."
+  },
+  "live_burst_recovery": [
+    {
+      "completed": 3956,
+      "unknown": 8,
+      "queue_depth": 256,
+      "tetragon_telemetry_filtered": 596,
+      "dropped_queue_full": 745,
+      "seconds": 0,
+      "model_p95_ms": 1255.755533988122,
+      "recent_queue_p95_ms": 1514.2462229996454
+    },
+    {
+      "completed": 4208,
+      "unknown": 8,
+      "queue_depth": 256,
+      "tetragon_telemetry_filtered": 598,
+      "dropped_queue_full": 860,
+      "seconds": 10,
+      "model_p95_ms": 1154.990467010066,
+      "recent_queue_p95_ms": 10205.254537984729
+    },
+    {
+      "completed": 4348,
+      "unknown": 8,
+      "queue_depth": 256,
+      "tetragon_telemetry_filtered": 598,
+      "dropped_queue_full": 951,
+      "seconds": 20,
+      "model_p95_ms": 1154.990467010066,
+      "recent_queue_p95_ms": 12261.384506011382
+    },
+    {
+      "completed": 4476,
+      "unknown": 8,
+      "queue_depth": 229,
+      "tetragon_telemetry_filtered": 599,
+      "dropped_queue_full": 990,
+      "seconds": 30,
+      "model_p95_ms": 937.2884939948563,
+      "recent_queue_p95_ms": 19645.96348599298
+    },
+    {
+      "completed": 4572,
+      "unknown": 8,
+      "queue_depth": 141,
+      "tetragon_telemetry_filtered": 616,
+      "dropped_queue_full": 990,
+      "seconds": 40,
+      "model_p95_ms": 994.939563999651,
+      "recent_queue_p95_ms": 24341.857343999436
+    },
+    {
+      "completed": 4656,
+      "unknown": 8,
+      "queue_depth": 75,
+      "tetragon_telemetry_filtered": 627,
+      "dropped_queue_full": 990,
+      "seconds": 50,
+      "model_p95_ms": 1047.6004379743244,
+      "recent_queue_p95_ms": 26222.174597001867
+    },
+    {
+      "completed": 4745,
+      "unknown": 8,
+      "queue_depth": 0,
+      "tetragon_telemetry_filtered": 653,
+      "dropped_queue_full": 990,
+      "seconds": 60,
+      "model_p95_ms": 1047.6004379743244,
+      "recent_queue_p95_ms": 25316.22952100588
+    }
+  ],
+  "telemetry_filter": "Only the installed same-UID mitmdump successfully requesting write permission on its own network status.tmp; other files, actors and failed operations remain reviewed.",
+  "tests": {
+    "total": 336,
+    "passed": 326,
+    "skipped": 10
+  }
+}

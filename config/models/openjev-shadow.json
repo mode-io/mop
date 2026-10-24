@@ -1,0 +1,11 @@
+{
+  "name": "openjev-shadow",
+  "version": "openjev-placeholder",
+  "model": "mop-open-jev-2b",
+  "endpoint": "http://127.0.0.1:18936",
+  "role": "specialist",
+  "state": "shadow",
+  "sources": ["command-input"],
+  "budget_ms": 5000,
+  "allow_remote": false
+}

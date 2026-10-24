@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310" role="img" aria-labelledby="title desc">
+<title id="title">MOP — modeio all-in-one</title>
+<desc id="desc">Your processes. Their actions. One view.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101820"/><stop offset="1" stop-color="#183d40"/></linearGradient></defs>
+<rect width="1200" height="310" rx="20" fill="url(#bg)"/>
+<g font-family="system-ui,Segoe UI,Arial,sans-serif">
+<text x="48" y="48" fill="#8bbab4" font-size="14" letter-spacing="3">MODEIO ALL-IN-ONE</text>
+<text x="43" y="155" fill="#effbf6" font-size="98" font-weight="750" letter-spacing="-5">MOP<tspan fill="#82e7b5">_</tspan></text>
+<text x="48" y="205" fill="#e4eee9" font-size="26">Your processes. Their actions. One view.</text>
+<text x="48" y="259" fill="#94bcb7" font-size="16">The familiarity of top. AI security in the same terminal.</text>
+</g>
+<g font-family="monospace" font-size="17">
+<rect x="820" y="63" width="330" height="182" rx="12" fill="#0c2127" stroke="#345754"/>
+<text x="846" y="102" fill="#82e7b5">$ mop</text>
+<text x="846" y="147" fill="#b3d3cd">OBSERVE</text><text x="846" y="182" fill="#b3d3cd">REVIEW</text><text x="846" y="217" fill="#b3d3cd">INSPECT</text>
+<circle cx="1114" cy="141" r="5" fill="#82e7b5"/><circle cx="1114" cy="176" r="5" fill="#e4c56e"/><circle cx="1114" cy="211" r="5" fill="#7bb7d5"/>
+</g></svg>

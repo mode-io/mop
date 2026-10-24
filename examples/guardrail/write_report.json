@@ -1,0 +1,18 @@
+{
+  "context": {
+    "task_id": "write_report",
+    "user_intent": "生成文档摘要",
+    "authorization": "允许读取公开文档并将摘要写入 /workspace/output/report.md。"
+  },
+  "operation": {
+    "operation": "write_file",
+    "source": "synthetic-case",
+    "phase": "proposed",
+    "metadata": {
+      "synthetic": true,
+      "path": "/workspace/output/report.md",
+      "content_description": "summary of public documentation",
+      "overwrite": false
+    }
+  }
+}
