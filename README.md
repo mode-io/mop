@@ -1,18 +1,23 @@
-<p align="center">
-  <img src="docs/frontends/banner.svg" alt="MOP — modeio all-in-one" width="100%">
-</p>
+[![MOP launch film — preview](docs/demos/launch-film-preview.gif)](https://github.com/mode-io/mop/releases/download/v0.9.4/MOP-launch-film-EN.mp4)
 
 <p align="center">
-  <a href="#install">Install</a> · <a href="#use-it-like-top">Usage</a> · <a href="#see-it-in-action">Demos</a> · <a href="#models">Models</a> · <a href="docs/README.md">Docs</a>
+  <a href="https://github.com/mode-io/mop/releases/download/v0.9.4/MOP-launch-film-EN.mp4"><strong>▶ Full launch film · English · 2:30</strong></a><br>
+  <sub>A look at the MOP product vision.</sub>
 </p>
 
-**MOP is modeio's all-in-one product for watching processes and reviewing AI agent activity.**
+**MOP — top, for the age of AI agents.**
 
-Like `top`, MOP shows what is running and how much CPU and memory it uses.
-It also brings commands, captured output, file activity and API traffic into
-one place, with AI security reviews alongside your processes.
+MOP is modeio's all-in-one product for seeing what AI agents do on a computer.
+It brings the familiarity of **top**, **htop** and **btop** together with AI security
+review: inspect processes, follow their activity, and open the evidence behind a decision.
 
-**See what is running. Understand what it is doing. Know what needs attention.**
+The film introduces the three terminal views, the guard model slot, and the
+vLLM-Jev engine behind them—with specialized guards for privacy, permissions,
+content and compliance in the product roadmap.
+
+<p align="center">
+  <a href="#install">Install</a> · <a href="#use-it-like-top">Usage</a> · <a href="#see-it-in-action">Live demos</a> · <a href="#models">Models</a> · <a href="docs/README.md">Docs</a>
+</p>
 
 ## Install
 
