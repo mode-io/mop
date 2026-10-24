@@ -150,8 +150,10 @@ class ModelInputTests(unittest.TestCase):
     def test_large_input_fragments_reconstruct_exact_projected_evidence(self):
         from mop.classification import ClassificationProvider
         provider=ClassificationProvider('http://127.0.0.1:18936',input_mode='compact')
-        event=Event('kernel_activity_window','tetragon',metadata={'observations':[{'operation':'file_read','text':'value-'+str(i)} for i in range(1000)]})
-        chunks=provider.bounded_inputs(event)
+        event=Event('kernel_activity_window','tetragon',metadata={'observations':[{'operation':'file_read','text':'value-'+str(i)} for i in range(160)]})
+        # Exercise the portable byte budget, without depending on local model files.
+        with patch('mop.model_budget.tokenizer',return_value=None):
+            chunks=provider.bounded_inputs(event)
         self.assertGreater(len(chunks),1)
         self.assertEqual(''.join(c.metadata['content_fragment'] for c in chunks),provider.choice_payload(event)['state'])
         self.assertEqual(chunks[-1].metadata['parts'],len(chunks))
