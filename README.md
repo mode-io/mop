@@ -1,7 +1,5 @@
 https://github.com/user-attachments/assets/1375e751-ebdf-40ff-bdaa-c1cdbcc4b606
 
-<p align="center">English · 2:30 · MOP product vision</p>
-
 <h1 align="center">MOP — top, for the age of AI agents.</h1>
 
 MOP is modeio's all-in-one product for seeing what AI agents do on a computer.
